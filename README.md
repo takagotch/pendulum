@@ -60,7 +60,6 @@ class DateTimeField(BaseDateTimeField):
       return value.to_datetime_string()
       
     return '' if val is None else val.isoformat()
-
 ```
 
 ```sh
